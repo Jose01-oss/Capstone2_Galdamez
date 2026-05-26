@@ -64,6 +64,50 @@ public class Pizza {
     public void setSize(PizzaSize size) {
         this.size = size;
     }
+    public double calculatePrice() {
+        double price = size.getBasePrice();
+
+        double meatPrice = 0;
+        double extraMeatPrice = 0;
+        double cheesePrice = 0;
+        double extraCheesePrice = 0;
+
+        if (size == PizzaSize.Small) {
+            meatPrice = 1.00;
+            extraMeatPrice = 0.50;
+            cheesePrice = 0.75;
+            extraCheesePrice = 0.30;
+        } else if (size == PizzaSize.Medium) {
+            meatPrice = 2.00;
+            extraMeatPrice = 1.00;
+            cheesePrice = 1.50;
+            extraCheesePrice = 0.60;
+
+        } else if (size == PizzaSize.Large) {
+            meatPrice = 3.00;
+            extraMeatPrice = 1.50;
+            cheesePrice = 2.25;
+            extraCheesePrice = 0.90;
+
+        }
+        if (crust.isStuffedCrust()){
+            price += 1.50;
+        }
+
+        price += meat.getMeats().size() * meatPrice;
+
+        if (meat.isExtraMeat()){
+            price += meat.getMeats().size() * extraMeatPrice;
+        }
+
+        price += cheesePrice;
+
+        if (cheese.isAddExtraCheese()){
+            price += extraCheesePrice;
+        }
+        return price;
+    }
+
 }
 
 
