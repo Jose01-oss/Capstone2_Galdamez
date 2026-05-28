@@ -17,4 +17,18 @@ public class Order {
     public void addGarlicKnots(GarlicKnots garlicKnots) {
         this.garlicKnots.add(garlicKnots);
     }
+
+    public double getTotalPrice(){
+        double PizzaPrice = pizzas.stream().mapToDouble(Pizza::calculatePrice  ).sum();
+
+        double drinkPrice = drinks.stream().mapToDouble(Drink::getPrice).sum();
+
+        double knotsPrice = garlicKnots.stream().mapToDouble(GarlicKnots::getPrice).sum();
+
+        return PizzaPrice + drinkPrice + knotsPrice;
+    }
+
+
+
+
 }
