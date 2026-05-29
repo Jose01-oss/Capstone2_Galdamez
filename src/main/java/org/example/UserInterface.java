@@ -434,6 +434,10 @@ public class UserInterface {
 
             System.out.printf("Total Amount Due: $%.2f\n", totalCost);
 
+            Order completedOrder = new Order(pizzaOrderList, drinkOrderList, garlicKnotOrderList, totalCost);
+            ReceiptManager rm = new ReceiptManager();
+            rm.saveReceipt(completedOrder);
+
 
 
 

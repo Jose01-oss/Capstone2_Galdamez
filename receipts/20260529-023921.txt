@@ -1,0 +1,9 @@
+=================================
+          ORDER RECEIPT          
+=================================
+PIZZAS ORDERED:
+  - Custom Pizza #1 (Large): $21.15    * Crust: REGULAR [STUFFED]    * Sauce: PESTOCheese: RICOTTA (EXTRA)    * Meats: None
+ Toppings: None
+
+---------------------------------
+Total Amount Due: $21.15

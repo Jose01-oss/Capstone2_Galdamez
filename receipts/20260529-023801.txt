@@ -1,0 +1,10 @@
+=================================
+          ORDER RECEIPT          
+=================================
+DRINKS ORDERED:
+  - LARGE Sprite$3.00
+
+---------------------------------
+Total Amount Due: $3.00
+Thank you for ordering with us!
+=================================
