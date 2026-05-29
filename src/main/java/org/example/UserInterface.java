@@ -19,6 +19,7 @@ public class UserInterface {
             System.out.println("2: add drink");
             System.out.println("3: add garlic knot");
             System.out.println("4: check out");
+            System.out.println("5: Exit");
             int mainMenuChoice = Integer.parseInt(scanner.nextLine());
 
             if (mainMenuChoice == 4) {
@@ -394,9 +395,11 @@ public class UserInterface {
                             }
                         }
                         break;
-                default:
-                    System.out.println("Invalid choice. Please select 1 to 3.");
+                case 5:
+                    System.exit(0);
                     break;
+                    default:
+                        System.out.println("Invalid choice. Please select 1 to 5");
 
 
             }

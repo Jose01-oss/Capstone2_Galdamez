@@ -1,0 +1,12 @@
+=================================
+          ORDER RECEIPT          
+=================================
+PIZZAS ORDERED:
+  - Custom Pizza #1 (Medium): $17.10    * Crust: THICK     * Sauce: PESTOCheese: MOZZARELLA (EXTRA)    * Meats: BACON (Extra)
+ Toppings: SPINACH, OLIVES, ANCHOVIES
+
+SIDES:
+  - 3 Garlic Knot(s): $4.50
+
+---------------------------------
+Total Amount Due: $21.60
