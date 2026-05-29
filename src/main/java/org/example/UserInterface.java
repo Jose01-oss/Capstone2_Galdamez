@@ -300,6 +300,7 @@ public class UserInterface {
                                 System.out.println("Invalid choice");
                                 continue;
                         }
+                        System.out.println(toppingOption + " added");
                         toppings.add(toppingOption);
 
                     }
@@ -434,8 +435,11 @@ public class UserInterface {
             System.out.printf("Total Amount Due: $%.2f\n", totalCost);
 
 
+
+
         }
     }
+
 }
 
 

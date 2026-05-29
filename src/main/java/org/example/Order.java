@@ -29,6 +29,15 @@ public class Order {
     }
 
 
+    public ArrayList<Pizza> getPizzas() {
+        return pizzas;
+    }
 
+    public ArrayList<Drink> getDrinks() {
+        return drinks;
+    }
 
+    public ArrayList<GarlicKnots> getGarlicKnots() {
+        return garlicKnots;
+    }
 }
