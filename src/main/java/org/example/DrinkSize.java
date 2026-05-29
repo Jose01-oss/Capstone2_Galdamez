@@ -3,7 +3,7 @@ package org.example;
 public enum DrinkSize {
     SMALL(2.00),
     MEDIUM(2.50),
-    LARGER(3.00);
+    LARGE(3.00);
 
     private double price;
     DrinkSize(double price) {
